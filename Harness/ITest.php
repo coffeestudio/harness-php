@@ -1,7 +1,7 @@
 <?php
 namespace CoffeeStudio\Harness;
 
-interface Test {
+interface ITest {
     /**
      * @return string
      */
