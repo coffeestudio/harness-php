@@ -1,7 +1,7 @@
 <?php
 namespace CoffeeStudio\Harness;
 
-interface ITest
+interface ITest extends IEntity
 {
     /**
      * @return string
