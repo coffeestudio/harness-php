@@ -1,7 +1,8 @@
 <?php
 namespace CoffeeStudio\Harness;
 
-interface ITestDAO {
+interface ITestDAO extends IDAO
+{
     /**
      * @return ITest
      */
