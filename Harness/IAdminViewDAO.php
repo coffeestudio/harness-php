@@ -5,6 +5,6 @@ interface IAdminViewDAO extends IDAO
 {
     public function get($id);
     public function getList();
-    public function listViewFields();
-    public function editViewFields();
+    public function listViewProjection();
+    public function editViewProjection();
 }
